@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pawify/static/css/main.d353f463.css",
+    "main.js": "/pawify/static/js/main.3182e3a6.js",
+    "static/js/453.20374ad8.chunk.js": "/pawify/static/js/453.20374ad8.chunk.js",
+    "index.html": "/pawify/index.html",
+    "main.d353f463.css.map": "/pawify/static/css/main.d353f463.css.map",
+    "main.3182e3a6.js.map": "/pawify/static/js/main.3182e3a6.js.map",
+    "453.20374ad8.chunk.js.map": "/pawify/static/js/453.20374ad8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d353f463.css",
+    "static/js/main.3182e3a6.js"
+  ]
+}
