@@ -6,9 +6,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Pawify</h1>
-        <div className="logo-container">
-          <img src="/logopawify.png" alt="Pawify Logo" className="logo" />
-        </div>
         <p className="message">
           Estamos trabajando en nuestra página web.
         </p>
