@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h1>Pawify</h1>
         <div className="logo-container">
-          <img src="/pawprint.png" alt="Pawify Logo" className="logo" />
+          <img src="/logopawify.png" alt="Pawify Logo" className="logo" />
         </div>
         <p className="message">
           Estamos trabajando en nuestra página web.
@@ -15,6 +15,12 @@ function App() {
         <p className="sub-message">
           ¡Vuelve pronto para descubrir todo lo que tenemos para ti y tu mascota!
         </p>
+        <button 
+          className="redirect-button"
+          onClick={() => window.location.href = 'https://pawify.org/'}
+        >
+          Ir a la página actual
+        </button>
       </header>
     </div>
   );

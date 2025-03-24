@@ -2,6 +2,75 @@
   text-align: center;
 }
 
+.App-header {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  margin: 20px 0;
+}
+
+.logo {
+  height: 150px;
+  animation: pulse 2s infinite;
+}
+
+.message {
+  font-size: 1.8rem;
+  margin: 20px 0 10px;
+  font-weight: 600;
+}
+
+.sub-message {
+  font-size: 1.2rem;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  
+  .message {
+    font-size: 1.5rem;
+  }
+  
+  .sub-message {
+    font-size: 1rem;
+  }
+  
+  .logo {
+    height: 100px;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,17 +80,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +93,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* Add this to your existing CSS */
+.redirect-button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.redirect-button:hover {
+  background-color: #3a7bc8;
+  transform: scale(1.05);
+}
+
+.redirect-button:active {
+  transform: scale(0.98);
 }
